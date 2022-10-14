@@ -3,7 +3,7 @@
 let nome1 = "Meriadoc";
 let idade1 = 4;
 let meu1 = true;
-let cor1 = ["Laranja", "Amarelo"] // para a semana 2
+let cor1 = ["Laranja"] // para a semana 2
 
 let nome2 = "Billy";
 let idade2 = 9;
@@ -13,7 +13,7 @@ let cor2 = ["Cinza", "Preto"]// para a semana 2
 let nome3 = "Peregrin";
 let idade3 = 4;
 let meu3 = true;
-let cor3 = ["Laranja", "Amarelo"]// para a semana 2
+let cor3 = ["Laranja"]// para a semana 2
 
 let nome4 = "Mamacita";
 let idade4 = 6;
@@ -61,7 +61,7 @@ const meusGatos1 ={
     nome: "Meriadoc",
     idade: 4,
     posse: true,
-    Cor:["Laranja", " Amarelo"]
+    Cor:["Laranja"]
 };
 const meusGatos2 ={
     nome: "Billy",
@@ -73,7 +73,7 @@ const meusGatos3 ={
     nome: "Peregrin",
     idade: 4,
     posse: true,
-    Cor:["Laranja", "Amarelo"]
+    Cor:["Laranja"]
 };
 const meusGatos4 ={
     nome: "Mamacita",
@@ -210,14 +210,14 @@ console.log(gatosNoMap);
 
 const soOsLaranajs = arrayDeGatos.filter( (gato, index, array) => {
     let resultado = false;
-    if(gato.cor === "Laranja"){
+    if(gato.Cor === "Laranja"){
+       
         resultado = true;
-
+    } else {
+        console.log("Esse gato não é laranja!")
     };
         return resultado;
 });
-
-
 
 console.log(soOsLaranajs);
 
