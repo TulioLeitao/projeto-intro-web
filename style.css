@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+  }
+
+  header{
+    display: grid;
+    background-color: black;
+    color: gold;
+    height: 10vh;
+    align-items: center;
+    padding: 2%;    
+  }
+  img{
+    width: 300px;
+    height: auto;
+    border-radius: 20%;
+    
+  }
+  main{
+    display: grid;
+    
+  }
+
+  .div-buscador{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;  
+  }
+  
+  .input{
+    border: 1px solid black;
+    width: 20vw;
+    height: 3vh;
+  }
+
+  .button{
+    border: 1px solid black;
+    width: 4vw;
+    height: 3vh;
+  }
+
+    
+  
+  #div-sections{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;  
+    padding: 2%;
+    width: 40vw;
+    justify-self: center;
+    
+  }
+
+  #section1{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    width: 40vw;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    background-color: orange;
+    border: 2px solid black;
+    
+  }
+  
+  
+  footer{
+    display: grid;
+    background-color: black;
+    color: burlywood;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    grid-template-rows: 1fr 1fr;    
+  }
+  .contatos{
+    display: grid;
+    font-size: larger;
+    color: aliceblue;
+    list-style-type: none;
+    grid-row: 1/2;
+    align-items: center;
+    justify-content: center;
+  }
+  .aviso{
+    display: grid;
+    grid-row: 2/3;
+    align-items: center;
+    justify-content: center;    
+  }
