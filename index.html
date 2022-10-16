@@ -6,77 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Esses são os meus gatos!</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
         <h1><a>Esses são os meus gatos!</a></h1>
     </header>
-    <main>
-        <div class="a">
-            <form>
-                <input class="input" type="text" id="nome" name="nome" placeholder="Pesquisar" />
-                <button class="button" type="submit">Buscar</button>
+    <main id="main">
+        <div class="div-buscador">
+            <form class="form">
+                <input id="input" class="input" value="" placeholder="Pesquisa" name="Buscar"/>
+                <button onclick="busca(event)" class="button">Buscar</button>
             </form>
         </div>
-        <div class="b">
-                <section class="merry">
-                    <div class="foto1">
-                    <img src="IMG\WhatsApp Image 2022-10-15 at 20.58.44.jpeg" alt="">
-                    </div>
-                    <ul class="lista1">
-                        <li>Nome: <a target="_blank" href ="merry.html">Meriadoc</a></li> <!--Como meu projeto é sobre os meu gatos, em vez de um link para um site, estou fazendo um link para uma outra página com uma foto deles.-->
-                        <li>Idade: 4</li>
-                        <li>Cor: Laranja</li>
-                        <li>Responsáveis: Túlio e Mariana!</li>
-                    </ul>
-                </section>
-                <section class="pippin">
-                    <div class="foto2">
-                    <img src = "IMG\WhatsApp Image 2022-10-15 at 20.24.32.jpeg" alt="">
-                    </div>
-                    <ul class="lista2">
-                        <li>Nome: <a target="_blank" href="pippin.html">Peregrin</a></li>
-                        <li>Idade: 4</li>
-                        <li>Cor: Laranja</li>
-                        <li>Responsáveis: Túlio e Mariana!</li>
-                    </ul>
-                </section>
-                <section class="mama">
-                    <div class="foto3">
-                        <img src="IMG\WhatsApp Image 2022-10-15 at 20.39.59.jpeg" alt="">
-                    </div>                 
-                    <ul class="lista3">
-                        <li>Nome: <a target="_blank" href="mama.html">Mamacita</a></li>
-                        <li>Idade: 6</li>
-                        <li>Cor: Preta e branca</li>
-                        <li>Responsáveis: Túlio e Mariana!</li>
-                    </ul>
-                </section>
-                <section class="lolo">
-                    <div class="foto4">
-                        <img src="IMG\WhatsApp Image 2022-10-15 at 20.39.55.jpeg" alt="">
-                    </div>                    
-                    <ul class="lista4">
-                        <li>Nome: <a target="_blank" href="lolo.html">Elanor</a></li>
-                        <li>Idade: 3</li>
-                        <li>Cor: Branca, laranja, preta</li>
-                        <li>Responsáveis: Túlio e Mariana!</li>
-                    </ul>
-                </section>
-                <section class="loki">
-                    <div class="foto5">
-                        <img src="IMG\WhatsApp Image 2022-10-15 at 20.40.04.jpeg" alt="">
-                    </div>          
-                    <ul class="lista5">
-                        <li>Nome: <a target="_blank" href="loki.html">Loki</a></li>
-                        <li>Idade: 1</li>
-                        <li>Cor: Cinza e branco</li>
-                        <li>Responsáveis: Túlio e Mariana!</li>
-                    </ul>
-                </section>
+        
+        <div id="div-sections">
 
-            </div>
+        </div>         
+            
+           
     </main>
     <footer>
       
