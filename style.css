@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+  }
+
+  header{
+    display: grid;
+    background-color: black;
+    color: gold;
+    height: 10vh;
+    align-items: center;
+    padding: 2%;    
+  }
+  img{
+    width: 300px;
+    height: auto;
+    border-radius: 20%;
+    
+  }
+  main{
+    display: grid;
+  }
+
+  .a{
+    display: grid;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;  
+  }
+  
+  .input{
+    border: 1px solid black;
+
+  }
+    
+  
+  .b{
+    display: grid;
+    padding: 2%;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 2vh;    
+  }
+
+  .merry{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    background-color: orange;
+    border: 2px solid black;
+  }
+  .foto1{
+    display: grid;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2%;
+  }
+  .lista1{
+    display: grid;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .pippin{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    grid-template-columns: 1fr 1fr;
+    background-color: orange;
+    border: 2px solid black;    
+  }
+  .foto2{
+    display: grid;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2%;
+  }
+  .lista2{
+    display: grid;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .mama{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    grid-template-columns: 1fr 1fr;
+    background-color: orange;
+    border: 2px solid black;
+  }
+  .foto3{
+    display: grid;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2%;
+  }
+  .lista3{
+    display: grid;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .lolo{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    grid-template-columns: 1fr 1fr;
+    background-color: orange;
+    border: 2px solid black;
+  }
+  .foto4{
+    display: grid;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2%;
+  }
+  .lista4{
+    display: grid;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .loki{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 5/6;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    grid-template-columns: 1fr 1fr;
+    background-color: orange;
+    border: 2px solid black;
+  }
+  .foto5{
+    display: grid;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2%;
+  }
+  .lista5{
+    display: grid;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+  }
+  footer{
+    display: grid;
+    background-color: black;
+    color: burlywood;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    grid-template-rows: 1fr 1fr;    
+  }
+  .contatos{
+    display: grid;
+    font-size: larger;
+    color: aliceblue;
+    list-style-type: none;
+    grid-row: 1/2;
+    align-items: center;
+    justify-content: center;
+  }
+  .aviso{
+    display: grid;
+    grid-row: 2/3;
+    align-items: center;
+    justify-content: center;    
+  }
